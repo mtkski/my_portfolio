@@ -1,0 +1,166 @@
+<html lang="en"><head><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Libre.Town - Home</title><link rel="stylesheet" type="text/css" href="/main.css"></head><body>
+	    <header id="title_frame" class="windowed_red">
+	        <a href="/"><img src="https://cdn.161.sh:8443/libre.town/graphics/img/logo.png" class="logo" alt="Libre Town. Logo."></a>
+	    </header>
+
+	    <div id="main_frame">
+		    <nav id="sidebar_left" class="windowed_purple">
+		        <h2>Navigation</h2>
+			    <ul class="list_no_icon">
+				    <li><a href="/" class="red">Home</a></li>
+				    <li><a href="/about.xhtml" class="red">About</a></li>
+				    <li><a href="/thoughts/main.xhtml" class="red">Thoughts</a></li>
+				    <li><a href="/links.xhtml" class="red">Links</a></li>
+			    </ul>
+			    <ul class="list_no_icon">
+				    <li><a href="/shrines/main.xhtml" class="red">Shrines</a></li>
+				    <li><a href="/shrines/cyberware/main.xhtml" class="red">&gt; Cyber</a></li>
+				    <li><a href="/shrines/music/main.xhtml" class="red">&gt; Music</a></li>
+				    <li><a href="/shrines/tokipona/main.xhtml" class="red">&gt; Toki Pona</a></li>
+			    </ul>
+			    <ul class="list_no_icon">
+				    <li><a href="/creative/main.xhtml" class="red">Art</a></li>
+				    <li><a href="/creative/writing.xhtml" class="red">&gt; Writing</a></li>
+				    <li><a href="/creative/development.xhtml" class="red">&gt; Programming</a></li>
+				    <li><a href="/creative/graphics.xhtml" class="red">&gt; Graphics</a></li>
+			    </ul>
+			    <ul class="list_no_icon">
+				    <li><a href="/misc/main.xhtml" class="red">Miscellaneous</a></li>
+				    <li><a href="/misc/recipes.xhtml" class="red">&gt; Recipes</a></li>
+				    <li><a href="/misc/special.xhtml" class="red">&gt; Special⁠/⁠Seasonal</a></li>
+			    </ul>
+		    </nav>
+		    
+		    <main id="content_area" class="windowed_red">
+				<section>
+					<noscript><p class="centerpiece">(Your browser doesn't support Javascript. That's so cool!)</p></noscript>
+					<p id="clock" class="centerpiece"></p>
+					<script type="application/javascript">
+						//<![CDATA[
+						// Refresh every 864ms
+						var x = setInterval(function()
+						{
+							// Current UTC times
+							var now = new Date();
+							var hours = now.getUTCHours();
+							var minutes = now.getUTCMinutes();
+							var seconds = now.getUTCSeconds();
+							var milliseconds = now.getUTCMilliseconds();
+
+							// Calculate Swatch Internet Time
+							hoursCh = hours == 23 ? 0 : hours + 1;
+							var timeInMilliseconds = ((hoursCh * 60 + minutes) * 60 + seconds) * 1000 + milliseconds;
+							var millisecondsInABeat = 86400;
+
+							// Dirty, dirty way of padding hours, minutes and seconds with zeroes. Don't come at me, this is MY website >:(
+							if(hours < 10) {
+								hours = "0" + hours;
+							}
+							if(minutes < 10) {
+								minutes = "0" + minutes;
+							}
+							if(seconds < 10) {
+								seconds = "0" + seconds;
+							}
+
+							// Display both time formats.
+							document.getElementById('clock').innerHTML =
+							"<b class='red'>UTC:</b> " + hours + ":" + minutes + ":" + seconds +
+							"<br /><a href='https://www.swatch.com/en-en/internet-time.html' class='red'>Internet Time:</a> @" +
+							Math.abs(timeInMilliseconds / millisecondsInABeat).toFixed(2);
+
+						}, 864);
+						//]]>
+					</script>
+
+					<div class="marquee-frame">
+						<div class="marquee-container">
+							<span class="marquee-content"><b class="red">BREAKING NEWS</b>: BREATHTAKING POLICE STING: MESSAGE IN A BOTTLE LEADS TO RISE AND FALL OF ENGLISHMAN IN NEW YORK · · · HORRIFYING: GUY WHO CLAIMED THEY/THEM PRONOUNS WERE &quot;ILLOGICAL&quot; DISCOVERS THE REMAINING LANGUAGE · · · BELOVED WEB ADMIN GOES INTO PERSONAL BANKRUPTCY AFTER FRIEND HOTLINKS THEIR 88x31 BUTTON INSTEAD OF HOSTING IT THEMSELVES · · · LOCAL GOTHIC HISTORY EXHIBITION DISAPPOINTS THOUSANDS OF INVADER ZIM FANS · · · &quot;TO KILL A MOCKINGBIRD&quot; WAS NOT A VERY HELPFUL GUIDE AT ALL, CLAIMS LOCAL FOX · · · TAKE THE LORD'S NAME IN VEIN WITH THE ALL-NEW YAHWE(tm) BRAND INJECTIBLES · · · VAPING ON YOUR PORCH COULD BE DANGEROUS, CLAIMS STEAM DECK CRITIC · · · THE WORLD COULDN'T BE BETTER, SAYS MAN UNAFFECTED BY REAL-WORLD ISSUES · · ·</span>
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<h2 class="red">Welcome!</h2>
+					<p>Welcome to <cite>LIBRE.TOWN</cite>! This is <a href="/about.xhtml" class="minimal">Lianna's</a> personal homepage.</p>
+					<p>Libre Town is a virtual town: my way of both expressing myself online and forming genuine connections with others via the web. In Libre Town, you may find my projects, shrine pages, blog posts, and many more little <a href="/thoughts/entry_9.xhtml" class="minimal">hypertext</a> surprises.</p>
+					<p>It is part of <a href="/thoughts/entry_7.xhtml" class="minimal">the broader &quot;web revival&quot; movement</a>, a loose community of those who reject social media and the modern internet, but still think the World Wide Web has the potential to facilitate amazing things! That's why we create and manage our own personal amateur homepages: our own corners of the World Wide Web. We connect with others through <a href="https://brisray.com/web/webring-history.htm" class="minimal">web-rings</a>, chat-rooms, e-mail and the web experience itself.</p>
+					<p>The web revival can be considered part of hacker culture, a post-modernist art movement, or just a hobby; it's all in the eye of the beholder.</p>
+					<p>Check out the navigation bar to find out what Libre Town has to offer. Many pages have sub-pages, so feel free to click around!</p>
+					<p>I hope you enjoy your stay.</p>
+				</section>
+
+			    <p class="centerpiece"><img src="https://cdn.161.sh:8443/libre.town/graphics/gifs/fireskull.gif" alt="Burning skull."></p>
+
+			    <section>
+					<h2 class="red">A Note on Hyperlinks</h2>
+					<p>As described in the <cite><a href="/thoughts/entry_9.xhtml" class="red">Hypertext Maximalist's Manifesto</a></cite>, there are two types of links on Libre Town. The colorless underlined passages that blend in are complementary hyperlinks leading to further resources, explanations or citations. In contrast, the bold, colorful links are the 'main' hyperlinks, important and essential to the passage's intent.</p>
+					<p>It is my goal to use this dual system to strike a balance between keeping Libre Town readable and linking to as many relevant, useful or interesting web resources as possible.</p>
+				</section>
+
+			    <section>
+					<h2 class="red">Updates / Changelog</h2>
+					<p class="centerpiece"><a href="/libretown.rss"><img src="https://cdn.161.sh:8443/libre.town/graphics/gifs/badges/8831_rss.gif" alt="Button: RSS feed."></a></p>
+
+					<img style="float:right;" class="floater" src="https://cdn.161.sh:8443/libre.town/graphics/gifs/lavalamp.gif" alt="GIF: Lava lamp.">
+					<ul>
+						<li>(<time datetime="2025-04-26">26th of April, 2025</time>) · <strong>Site is on hold for now</strong> because I am secretly working on a massive rework improving all levels of Libre Town. Posted an announcement article about it called <cite><a href="/thoughts/entry_15_full.html" class="red">The 2025 Libre Town Renewal</a></cite>. Check it out to see what's coming!</li>
+						<li>(<time datetime="2025-04-18">18th of April, 2025</time>) · Added a new blog post called <cite><a href="/thoughts/entry_14.html" class="red">Semantic Websites: Briefly Explained</a></cite>, explaining the concept of Semantic HTML to a general audience. Also added the German translation of the indigenous subculture manifesto, called <cite><a href="/thoughts/entry_13_de.html" class="red">Wider der Selbstentfremdung: Ein Manifest zugunsten indigener Subkulturen</a></cite>. Also updated <a href="/links.xhtml" class="red">the Links page</a> to bring it up to semantic HTML standard and remove broken links.</li>
+						<li>(<time datetime="2025-04-12">12th of April, 2025</time>) · Added a new blog post called <cite><a href="/thoughts/entry_13.html" class="red">Localise Yourself: A Manifesto For Indigenous Subcultures</a></cite>. All articles on <a href="/thoughts/main.xhtml" class="red">the thoughts page</a> now feature word counts so you don't accidentally stumble into a way-too-long essay and get overwhelmed. Started adding more obscure semantic HTML tags throughout the site to better mark up existing content.</li>
+						<li>(<time datetime="2025-03-18">18th of March, 2025</time>) · Well... Libre Town's files corrupted on its server. The last backup was taken right before the January update; I had to rebuild the update again with the help of the Web Archive. Sorry for the downtime...</li>
+					</ul>
+			    </section>
+
+			    <section>
+					<h2 class="red">Communities / Webrings</h2>
+					<div style="text-align: center;">
+						<iframe height="300" width="640" src="https://webring.htmlhobbyist.com/site/libre.town" title="The HTML Hobbyist Webring"></iframe>
+						<p>
+							<a href="/thoughts/entry_7.xhtml"><img alt="Web Revival Banner." src="https://cdn.161.sh:8443/libre.town/graphics/gifs/banners/265-16_web_revival.png"></a><br>
+							<a href="mailto://lianna@tutamail.com"><img alt="Casual E-Mails Welcome Banner." src="https://cdn.161.sh:8443/libre.town/graphics/gifs/banners/265-16_email_dark.png"></a><br>
+						</p>
+					</div>
+				</section>
+		    </main>
+		    
+		    <aside id="sidebar_right" class="windowed_purple">
+				<h2>Across the Web</h2>
+			    <p class="centerpiece"><img src="https://cdn.161.sh:8443/libre.town/graphics/gifs/buildings/libretown.gif" alt="Cyberpunk representation of Libre Town. Neon pixel art."></p>
+
+			    <nav>
+					<h3>Friends of Libre Town</h3>
+					<div class="badges">
+						<a href="https://melonking.net"><img alt="Melonking" src="https://melonking.net/images/badges/MELON-BADGE.GIF"></a>
+						<a href="https://www.thefrugalgamer.net/"><img alt="The Frugal Gamer" src="https://www.thefrugalgamer.net/img/links/frugalgamer_button1.png"></a>
+						<a href="https://kaiteng.neocities.org/"><img alt="Kaiteng" src="https://kaiteng.neocities.org/kuvat/bannerr.gif"></a>
+						<a href="https://ribose.neocities.org/"><img alt="Ribose" src="https://ribo.zone/88x31/site/ribose.png"></a>
+						<a href="https://onio.cafe/"><img alt="Onio Cafe" src="https://onio.cafe/thebutton.gif"></a>
+						<!-- REMOVED DUE TO CHANGE IN WEBSITE FOCUS (Jan 2025) <a href="https://geckof.dimension.sh/"><img alt="GeckoF" src="/graphics/gifs/badges/geckof.gif"></img></a>-->
+						<a href="https://sigmatic.neocities.org/"><img alt="Sigmatic" src="https://sigmatic.neocities.org/images/buttons/sigmaticbutton.gif"></a>
+						<!-- REMOVED DUE TO BROKEN WEBSITE (April 2024) <a href="http://doubleincision.com/"><img alt="Double Incision" src="http://doubleincision.com/newbutton.gif"></img></a>-->
+						<!-- REMOVED DUE TO BROKEN BLINKIE (June 2024) <a href="https://www.cyberdragon.digital/"><img alt="Cyberdragon" src="https://www.cyberdragon.digital/assets/badges/cyberdragon.png"></img></a>-->
+						<a href="https://melaaaa.neocities.org/"><img alt="Melas Candy Castle" src="https://melaaaa.neocities.org/buttons/button.gif"></a>
+						<a href="https://doctordizzy.space/"><img alt="Dizzy's Bunny Hell" src="https://cdn.161.sh:8443/libre.town/graphics/gifs/badges/others/dizzy.gif"></a>
+						<a href="https://blog.shr4pnel.com/"><img alt="Shrapnel Blog" src="https://blog.shr4pnel.com/assets/buttons/blogbutton.gif"></a>
+					</div>
+				</nav>
+
+				<section>
+					<h3>Contact</h3>
+					<p>Do you want to be included in the list of 'Friends of Libre Town' or do you want to contact me for any other reason? </p><address>Shoot me a message via <a href="mailto:lianna@tutamail.com" class="red">e-mail</a> or <a href="xmpp:levalian@disroot.org" class="red">XMPP</a>.</address>
+					<p>Feel free to put my badge on your website to show support, too.</p>
+					<div class="badges">
+						<img alt="Libre Town Badge" src="https://cdn.161.sh:8443/libre.town/graphics/gifs/8834_libretown.gif">
+					</div>
+				</section>
+
+				<section>
+					<h3>Web Cliques</h3>
+					<p>These are the <a href="https://project.moudoku.com/about.php" class="minimal">Web Cliques</a> I am a part of.</p>
+					<p>Lieutenant Lianna <a href="https://libre.town" class="orange">@</a> USS <em>Bordiga</em> | <em>Ptolemy</em>-class at <cite><a href="/misc/special/outpost_zeta_one.xhtml" class="orange">Outpost ZETA ONE</a></cite>, the Star Trek fan web clique!</p>
+					<p>Libre Town is a member of the <cite><a href="https://darktheme.club/" class="yellow">Dark Theme Club</a></cite>.</p>
+					<p><a href="https://cliques.gensoukai.net/dye/"><img alt="Crimson Dyed Hair Badge." src="https://cdn.161.sh:8443/libre.town/graphics/gifs/badges/badge_crimson_hair.gif"></a></p>
+				</section>
+		    </aside>
+	    </div>
+	</body></html>
