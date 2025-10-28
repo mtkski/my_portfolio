@@ -71,7 +71,7 @@ const nesting = getNestingString();
 const headerEl = `
 
     <header id="title_frame" class="windowed_red">
-        <a href="/"><img src="/img/flep_white.png" class="logo" alt="FLEP logo"></a>
+        <a href="/"><img src="../img/flep_white.png" class="logo" alt="FLEP logo"></a>
     </header>
 
 `;
