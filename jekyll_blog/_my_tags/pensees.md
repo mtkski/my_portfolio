@@ -1,0 +1,4 @@
+---
+slug: pensées
+name: Pensées
+---

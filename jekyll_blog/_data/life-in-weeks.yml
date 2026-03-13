@@ -1,0 +1,11 @@
+'YYYY-MM-DD':
+  - name: "Event name"
+    desc: "Optional description shown in tooltip"
+    category: "category_name"
+    link: "https://optional-link.com"
+    tags: ["tag1", "tag2"]
+
+'2026-03-12':
+  - name: "Creation of this site"
+    desc: "An afternoon of tinkering"
+    category: "cs"

@@ -1,0 +1,4 @@
+---
+slug: visuals
+name: Visuals
+---

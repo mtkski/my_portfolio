@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/blogg/feed.xml" rel="self" type="application/atom+xml" /><link href="/blogg/" rel="alternate" type="text/html" /><updated>2026-03-13T02:00:57+01:00</updated><id>/blogg/feed.xml</id><title type="html">flep’s blog</title><subtitle>flep&apos;s blog, yee yee</subtitle><entry><title type="html">debrief gig projection chez Leswar</title><link href="/blogg/blog/leswarlights" rel="alternate" type="text/html" title="debrief gig projection chez Leswar" /><published>2026-03-13T00:00:00+01:00</published><updated>2026-03-13T00:00:00+01:00</updated><id>/blogg/blog/leswarlights</id><content type="html" xml:base="/blogg/blog/leswarlights"><![CDATA[<h2 id="design">Design</h2>
+<p><a href="/blogg/notes/loop-design/">Loop Design</a></p>
+
+<p><a href="/blogg/notes/research-and-process/">Research and process</a></p>
+
+<h2 id="challenges-and-wins">Challenges and wins</h2>
+<h3 id="technical-challenges">Technical challenges</h3>
+<ul>
+  <li>Only TOPs, no GPU</li>
+  <li>Connect a cam and stream video.</li>
+  <li>Reliable during the whole night</li>
+  <li>Cables, length is always an issue</li>
+  <li>Sound input ?</li>
+</ul>
+
+<h3 id="unknowns">Unknowns</h3>
+<ul>
+  <li>Will the loop crash ? What then ?</li>
+  <li>Will the cam keep up the whole night ?</li>
+</ul>
+
+<h3 id="unexpected-challenges-and-wins">Unexpected challenges and wins</h3>
+<ul>
+  <li>✨ Used a friend’s M3 mac $\to$ a lot of input/output and enhanced visual power</li>
+  <li>✨ A friend’s dad lended a Canon EOS R6 mk II, which was really plug and play by USB C.</li>
+  <li>✨ Having a chill zone next to the stage for a safe cam / PC setup. Could’ve been a challenge with the cables</li>
+  <li>✨ AUX send to the Focusrite was easy</li>
+  <li>👹 Obligation to keep an eye on the cam battery level and switch when it dies (no power from USB C)</li>
+  <li>👹 Smoke and lights influencing on the visuals ofc</li>
+  <li>👹 Because of the cable length the control room was really not confortable</li>
+</ul>
+
+<h2 id="key-learnings-and-thoughts">Key learnings and thoughts</h2>
+<h3 id="overall">Overall</h3>
+<p>Some misc general things :</p>
+<ul>
+  <li>setup on event day always takes a bit longer than expected, having a solid vision and todo-list could be super useful.</li>
+  <li>trust that it’ll work, or at least some version of it</li>
+  <li>don’t leave things unknown, the cam setup could’ve been a main problem, some guy “checked” the streaming via usb, but didn’t manage, we all thought we would need to buy a mini hdmi the next day. Turns out there was an option to tick in the params, one research away from a very easy solution.</li>
+  <li>Keep track of the hours, for self, and for reference for future projects.</li>
+</ul>
+
+<h3 id="fragile-effect">Fragile effect</h3>
+<p>The thermal colors effect was super hard to dial in, it was super dependant on the light, colors and contrast of the video in. There was also a pretty fragile feedback loop. I should’ve better selected the ranges of the parameters and maybe experimented more during the setup phase. I knew the effect was more fragile and it was the one I mastered the less. So it was stressful to play with it during the event without breaking the effect catastrophically. 
+In short, keep the setup dials to a minimum : a level or monochrome TOP, a gain button for the sound. ie : have a reference for the “perfect” input and try to get close to it</p>
+
+<h3 id="perform-mode">Perform mode</h3>
+<p>I know I could’ve made a better perform mode setup. Keep only a few controls instead of the whole network in a second window.<br />
+The technique of duplicating the pane and setting the main window to perform mode was maybe not the most robust one, but I still needed to touch the pc a lot to fine tune the visuals during the event so the setup was very useful this time. 
+I know this was caused by lack of time the last week, not plug and play enough for my taste, still had to do a lot during setup the previous day.</p>
+
+<h3 id="remote-access">Remote access</h3>
+<p>Having a webserver and being able to change some parameters on a phone would’ve been nice. 
+Another soluce would’ve been rustdesk, and just acess the whole pc, but need of a second PC, less for on the go during the night, more for the setup phase.</p>
+
+<h3 id="controls">Controls</h3>
+<p>The PS4 controls where used more like a macro controls panel. 
+A useful thing would’ve been to have two pages, one for when it’s sitting next to the PC, one for when dialing in the effects in the room. Here I think I lost some usability by wanting to put everything in a do-it-all mapping.</p>]]></content><author><name></name></author><category term="visuals" /><summary type="html"><![CDATA[Design Loop Design]]></summary></entry><entry><title type="html">Setup un site sur Jekyll</title><link href="/blogg/blog/setup-un-site" rel="alternate" type="text/html" title="Setup un site sur Jekyll" /><published>2026-03-12T00:00:00+01:00</published><updated>2026-03-12T00:00:00+01:00</updated><id>/blogg/blog/setup-un-site</id><content type="html" xml:base="/blogg/blog/setup-un-site"><![CDATA[<p>Setup un site sur Jekyll n’est pas très dur, mais ça demande un peu de chipote quand même.</p>
+
+<p>Ça reste bien agréable de voir que ça marche après s’être motivé à comprendre le système, lire un peu de doc et galéré à s’approrier le template. Bon voilà premier log.</p>]]></content><author><name></name></author><category term="pensées" /><summary type="html"><![CDATA[Setup un site sur Jekyll n’est pas très dur, mais ça demande un peu de chipote quand même.]]></summary></entry></feed>

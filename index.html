@@ -98,10 +98,10 @@
 				drop-shadow(1px -1px 0 black)
 				drop-shadow(-1px -1px 0 rgb(0, 0, 0));
 			}
-		.imgtxt:hover span, .imgtxt:focus span {
+		.imgtxt:hover span, .imgtxt:focus-visible span {
 			opacity: 1;
 			}
-		.scale_small:hover img, .imgtxt:focus img {
+		.scale_small:hover img, .imgtxt:focus-visible img {
 			transform: scale(1.3);
 			rotate: 30deg
 			}
@@ -113,7 +113,16 @@
 			transform: scale(4);
 			rotate: -30deg
 			}
-
+		.about_me_jitter {
+			animation: aboutMeJitter 0.2s infinite alternate;
+		}
+		.about_me_jitter:hover, .about_me_jitter:focus {
+			animation-play-state: paused;
+		}
+		@keyframes aboutMeJitter {
+			from{ rotate: 28deg;}
+			to { rotate: 32deg;  }
+		}
 		.appear img {
 			opacity: 0;
 		}
@@ -122,31 +131,30 @@
 		}
 		
 
-		#news { 
+		#about_me { 
 			background: transparent;
 			border: none;
 			margin: calc(80px + 4vh) auto 1rem auto;
 			max-width: 620px;
 		}
-		#news > div { 
+		#about_me > div { 
 			background: white;
 			margin: 10px;
 			box-shadow: 5px 5px rgb(0,0,0,0.4);
 			border-radius: 0 0 5px 5px;
 			padding: 5px;
 		}
-		#news h2 { text-align: center; letter-spacing: 2px; font-size: 3rem; margin: 15px 10px 10px 10px; }
-		#news h3 { text-align: center; font-style: normal; text-transform: uppercase; font-size: 1em; text-wrap: balance; }
-		#news h3, #news p { margin: 10px 0; }
-		#news time { display: block; border-style: solid; border-width: 1px 0; padding: 7px 0 5px 0; text-align: center; margin: 10px; }
-		#news p, #news li { font-size: 0.8rem; }
-		#news p { text-align: justify; }
-		#news > div > p { text-align: center; margin: 10px; border-top: 1px solid; padding-top: 10px; }
-		#news ul { margin: 10px 0; }
-		#news button { color: teal; text-decoration: underline; }
-		#news button:hover, #news button:focus { color: white; background: teal; }
-		#news button, #news > div > p > a { display: block; margin: auto; border: 1px solid; padding: 5px 7px; font-size: 0.8rem; line-height: 1.3; }
-		#news > div > p > a { margin: 0; }
+		#about_me h2 { text-align: center; letter-spacing: 2px; font-size: 3rem; margin: 15px 10px 10px 10px; }
+		#about_me h3 { text-align: center; font-style: normal; text-transform: uppercase; font-size: 1em; text-wrap: balance; }
+		#about_me h3, #about_me p { margin: 10px 0; }
+		#about_me time { display: block; border-style: solid; border-width: 1px 0; padding: 7px 0 5px 0; text-align: center; margin: 10px; }
+		#about_me p, #about_me li { font-size: 0.8rem; }
+		#about_me p { text-align: justify; }
+		#about_me > div > p { text-align: center; margin: 10px; border-top: 1px solid; padding-top: 10px; }
+		#about_me ul { margin: 10px 0; }
+		#about_me button:hover, #about_me button:focus { color: white; background: rgb(128, 0, 119); }
+		#about_me button, #about_me > div > p > a { display: block; margin: auto; border: 1px solid; padding: 5px 7px; font-size: 0.8rem; line-height: 1.3; }
+		#about_me > div > p > a { margin: 0; }
 		.flex { display: flex; flex-wrap: wrap; margin: 10px 0; }
 		.flex div { flex: 1 1 30%; padding: 0 10px; }
 		.flex div:not(:last-child) { border-right: 1px solid; }
@@ -165,9 +173,10 @@
 		@media (prefers-color-scheme: dark) {
 			body { background: #fff8da url('microscopy/bg.png'); }
 			header, h1 { color: white; }
-			#news button { color: #06f967; }
-			#news button:hover, #news button:focus { background-color: #b2d7c1; color: darkslategrey; }
-			#news > div { background: darkslategrey; }
+			#about_me > div { background: rgb(255, 213, 0); }
+		}
+		@media (prefers-reduced-motion: reduce) {
+			.about_me_jitter { animation: none; rotate: 30deg; }
 		}
 	
 	
@@ -231,7 +240,7 @@
 	<header>
 
 	<a href="/"
-		style="left: 12.5%; top: 6%; background-color: #00000000; width: 18vw;"
+		style="left: 12.5%; top: 10%; background-color: #00000000; width: 18vw;"
 		class="imgtxt">
 		<img src="./img/flep_white.png" >
 	</a>
@@ -239,6 +248,7 @@
     <div class="pkmn" style="left: 50%; top: 12.5%; transform: translateX(-50%); z-index: 99; position: absolute; width: 50vw;">
 	    Oh you're here ! Don't mind the mess on my desk
 	    Don't hesitate to explore around, as long as you put everything back in place !
+		Every item on my desk takes you to a different corner of the web.
     </div>
 
 	</header>
@@ -271,7 +281,7 @@
 
 
 	
-	<a href="cv.html"
+	<a href="corpo/cv.html"
 		class="imgtxt scale_small"
 		style="top: 23%; left: 75%; width: 20vw; height: 20vw;">
 		<img src="./img/doc_pile.png"
@@ -280,25 +290,25 @@
 		<span style="font-family:Courier;">CV</span>
 	</a>
 
-	<a href="about_me.html"
-		class="imgtxt scale_id"
-		style="top: 50%; left: 50%; z-index: 2; rotate: 30deg;width: 10vw; height: 10vh;">
+	<button popovertarget="about_me" 
+		class="imgtxt scale_id about_me_jitter"
+		style="top: 75%; left: 80%; z-index: 2; width: 10vw; height: 10vh;">
 		<img src="./img/hawai_id.png"
 		style="width: 100%;"
 		alt="">
-		<span style="font-family:Courier;">ABOUT ME</span>
-	</a>
+		<span style="font-family:Courier;transform-origin: center;">ABOUT ME</span>
+	</button>
 	
-	<a href="my_pc.html"
+	<a href="my_pc/my_pc.html"
 		class="imgtxt scale_small"
-		style="top: 75%; left: 75%; z-index: 2; width: 50vw; height: 50vh;">
+		style="top: 30%; left: 50%; z-index: 2; width: 30vw; height: 30vh;">
 		<img src="./img/laptop.png"
 		style="width: 100%;"
 		alt="">
-		<span style="font-family:Courier;">PROJECTS</span>
+		<span style="font-family:Courier;">My digital stash</span>
 	</a>
 
-	<a href="blog.html"
+	<a href="blogg/index.html"
 		class="imgtxt scale_small"
 		style="top: 30%; left: 20%; z-index: 2; rotate:-10deg; width: 20vw; height: 20vh;">
 		<img src="./img/paris-match.jpg"
@@ -307,13 +317,13 @@
 		<span style="font-family:Courier;">BLOG</span>
 	</a>
 
-	<a href="poolsuite.html"
-		class="imgtxt scale_small"
+	<a href="visuals.html"
+		class="imgtxt scale_small"		
 		style="top: 80%; left: 30%; z-index: 2; width: 24vw; height: 24vh;">
-		<img src="./img/beosound.jpg"
+		<img src="./img/cosmic_orb.gif"
 		style="width: 100%;"
 		alt="">
-		<span style="font-family:Courier;">MUSIC</span>
+		<span style="font-family:Courier;">Visuals</span>
 	</a>
 
 	<!-- <img src="./img/desk.png" style="position: absolute;
@@ -333,37 +343,37 @@
 		Blog</span>
 	</a> -->
 	
-	<!-- <button popovertarget="news"
+	<!-- <button popovertarget="about_me"
 		class="rotate"
 		style="top: 31.7vw; left: 36vw;">
-		<img src="img/home/newspaper.png"
+		<img src="img/home/about_mepaper.png"
 		style="width: 11vw;
 		filter: drop-shadow(0 0.1vw 0 rgb(0,0,0,0.5));"
 		alt="">
-		<span>News</span>
+		<span>about_me</span>
 	</button> -->
 	<!-- popover pour une fenetre qui s'ouvre au dessus -->
 
-	<div popover id="news">
+	<div popover id="about_me">
 		<div>
-			<h2>ribonews</h2>
-			<time>october 10, 2025</time>
+			<h2>About Me</h2>
+			<time>9 mars 2026</time>
 			<div class="flex">
 				<div>
-					<h3>weird web october</h3>
-					<p>this month, i'm trying to make a silly webpage every day. you can find <a href="weirdweb/">all my pages here</a>, and get more info from the <a href="https://weirdweboctober.website/">event site</a>. join us!</p>
+					<h3>Engineer ?????</h3>
+					<p>Soon to be promoted from student to unemployed engineer. My field is computer science, especially computer graphics, cybersecurity and of course everything AI related. And always tinkering on my homelab, building stuff.</p>
 				</div>
 				<div>
-					<h3>indiepocalypse!!!!!</h3>
-					<p>i'm in this month's issue of <a href="https://pizzapranks.itch.io/indiepocalypse-69">indiepocalypse</a>, an indie game anthology! i was also a guest on indiepocalypse radio, which you can listen to <a href="https://www.patreon.com/posts/indiepocalypse-140468837">now</a> if you're a patron or <a href="https://creators.spotify.com/pod/profile/indiepocalypse/">later</a> if you're not.</p>
+					<h3>And artist ???!!! </h3>
+					<p>I also enjoy creating art. Mainly digital generative art (in the sense generated from algos, not from AI, fuck generative AI). Check it out on my insta and on the visuals tab ! I'm a big music nerd. Your musical recos are more than welecome ! I love collaborating with friends on creating our favorite pieces of art. </p>
 				</div>
 				<div>
-					<h3>hyperlinks forever</h3>
-					<p>i recently started a small linkblog called <a href="https://litter.leaflet.pub/">leaf litter</a>, and i continue to add many links to my <a href="https://notes.ribo.zone/">notes subsite</a>. there's lots to see and enjoy online!</p>
+					<h3>Qu'est ce que c'est que c'est this site ? </h3>
+					<p>My small corner of the internet, hosted on my Raspberry pi, warming up a small corner of my living room. Expect finding very diverse universes from your exploration. Reach out ! I'm human. Get inside head by going inside my blog. </p>
 				</div>
 			</div>
-			<p><a href="feed.xml" style="float:left;">RSS feed</a><a href="changelog" style="float:right;">changelog</a> 
-			<button popovertarget="news" popovertargetaction="hide">close</button></p>
+			<p><a href="https://www.instagram.com/p.mtkski/" style="float:left;">Instagram</a><a href="mailto:p.mtkski@gmail.com" style="float:right;">mail</a> 
+			<button popovertarget="about_me" popovertargetaction="hide">close</button></p>
 		</div>
 	</div>
 
