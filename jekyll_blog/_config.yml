@@ -54,7 +54,7 @@ defaults:
       layout: note
 
 baseurl: "/blogg"
-permalink: /blog/:slug
+permalink: /blog/:slug/
 timezone: Europe/Brussels
 future: true
 

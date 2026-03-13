@@ -2,7 +2,7 @@
 layout: page
 title: Technical shenanigans
 description: Technical things here
-permalink: /technical
+permalink: /technical/index.html
 ---
 
 A record for my future self and for others that might be interested.
