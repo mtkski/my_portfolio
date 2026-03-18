@@ -27,4 +27,4 @@ About HTTPS and the SSL (TLS) protocol in here [[SSL protocol]]
 ## Current setup
 [[Rasp Pi]]
 [[Docker]]
-[[Open ports]]
+[[Open ports proximus]]
