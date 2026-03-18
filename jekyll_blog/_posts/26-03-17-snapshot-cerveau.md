@@ -33,3 +33,5 @@ Et puis la grande question des bourses. J'ai l'impression que petit à petit, en
 En réfléchissant il y a des trucs qui sont un peu à contre courant qui me paraissent logique, mais parfois je me bride en me disant que c'est pas comme ça que ça marche; C'est peut être justement en faisant ces choses que ça qui va m'aligner avec mes valeurs, avec la manière dont je veux travailler et  au final me rendre plus authentique, peut être se démarquer, whatever that means. 
 Là pour l'instant je veux surtout parler du fait d'avoir du matos. J'ai l'impression que je dois tout faire DIY, tout acheter moi même en mode schmettos pour faire une preuve de concept et pouvoir proposer ça à des prods plus grandes. Est ce que c'est une bonne stratégie ? Devrais-je simplement conceptualiser d'abord ? Vendre des idées, checker si ça marche après ? 
 Dans ma tête les deux fonctionnent. Je pense avoir des POC et pouvoir proposer un vrai truc à développer ça fait très sérieux. 
+
+Yapluka
