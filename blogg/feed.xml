@@ -1,23 +1,72 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/blogg/feed.xml" rel="self" type="application/atom+xml" /><link href="/blogg/" rel="alternate" type="text/html" /><updated>2026-03-18T12:49:20+01:00</updated><id>/blogg/feed.xml</id><title type="html">flep’s blog</title><subtitle>flep&apos;s blog, yee yee</subtitle><entry><title type="html">Snapshot cerveau</title><link href="/blogg/blog/snapshot-cerveau/" rel="alternate" type="text/html" title="Snapshot cerveau" /><published>2026-03-17T00:00:00+01:00</published><updated>2026-03-17T00:00:00+01:00</updated><id>/blogg/blog/snapshot-cerveau</id><content type="html" xml:base="/blogg/blog/snapshot-cerveau/"><![CDATA[<p>Là j’ai la gnack dernièrement. Malgré le doomscroll à la maison, le fait d’être pas mal occupé ça contre-balance le truc. Attention cela dit, je pense qu’il y a de bonnes et de mauvaises façon de se chiller, le doomscroll c’est jamais OK. 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/blogg/feed.xml" rel="self" type="application/atom+xml" /><link href="/blogg/" rel="alternate" type="text/html" /><updated>2026-03-19T19:05:53+01:00</updated><id>/blogg/feed.xml</id><title type="html">flep’s blog</title><subtitle>flep&apos;s blog, yee yee</subtitle><entry><title type="html">Sound system research</title><link href="/blogg/blog/soundsystem/" rel="alternate" type="text/html" title="Sound system research" /><published>2026-03-19T00:00:00+01:00</published><updated>2026-03-19T00:00:00+01:00</updated><id>/blogg/blog/soundsystem</id><content type="html" xml:base="/blogg/blog/soundsystem/"><![CDATA[<h1 id="learning">Learning</h1>
+<p><a href="/blogg/notes/matos/">Matériel</a></p>
+
+<h1 id="ressources">Ressources</h1>
+<p><a href="http://hornplans.free.fr/faq.html#MDF">Hornplans marc.o</a> : un ingé reconnu dans le milieu, développe ses propres caissons, donne les plans for free.</p>
+
+<p><a href="https://freespeakerplans.com/plans">Free speaker plans</a> : autre site avec des plans</p>
+
+<p><a href="http://www.ziggysono.com/">Ziggy</a> grosse ressource, pas encore trop dig</p>
+
+<h1 id="project">PROJECT</h1>
+<p><a href="/blogg/notes/mt-130/">MT130</a></p>
+
+<p><a href="/blogg/notes/my-rack/">My rack</a></p>]]></content><author><name></name></author><category term="technical" /><category term="soundsystem" /><summary type="html"><![CDATA[Learning Matériel]]></summary></entry><entry><title type="html">Self hosting adventure</title><link href="/blogg/blog/selfhost/" rel="alternate" type="text/html" title="Self hosting adventure" /><published>2026-03-18T00:00:00+01:00</published><updated>2026-03-18T00:00:00+01:00</updated><id>/blogg/blog/selfhost</id><content type="html" xml:base="/blogg/blog/selfhost/"><![CDATA[<p>WIP, nothing works here yet.</p>
+
+<h2 id="in-a-nutshell">In a nutshell</h2>
+<p>The key points on selfhosting :</p>
+<ul>
+  <li>a fixed IP accessible via internet with open ports (ask the ISP)</li>
+  <li>redirect the open ports to the local IP of the machine (port mapping in the router settings)</li>
+  <li>If you have a <a href="About%20domains.md">domain</a>, you need to setup a DNS record to point to your machines’s public IP</li>
+  <li>a good practice is having a webserver running a reverse proxy on the machine to route traffic to the correct service (services accessible through only one port)</li>
+</ul>
+
+<h2 id="on-android">On android</h2>
+<p>Some test to repurpose an old android phone as a server. 
+From my research the setup consits of :</p>
+<ul>
+  <li>termux for emulating the linux env</li>
+  <li>caddy or nginx running on it, providing the web server</li>
+  <li>port mapping</li>
+  <li>(optional) a way to create a tunnel to the IP of the phone (multiple ways to <a href="Tunnel%20a%20connexion.md">do it</a>)
+[[Specifically on the Doro]]
+[[To connect via ssh]]
+[[Run darkhttpd]]</li>
+</ul>
+
+<h2 id="security">Security</h2>
+<p>About HTTPS and the SSL (TLS) protocol in here [[SSL protocol]]
+[[Reverse proxy]]</p>
+
+<h2 id="current-setup">Current setup</h2>
+<p>[[Rasp Pi]]
+[[Docker]]
+[[Open ports proximus]]</p>]]></content><author><name></name></author><category term="technical" /><summary type="html"><![CDATA[WIP, nothing works here yet.]]></summary></entry><entry><title type="html">Snapshot cerveau</title><link href="/blogg/blog/snapshot-cerveau/" rel="alternate" type="text/html" title="Snapshot cerveau" /><published>2026-03-17T00:00:00+01:00</published><updated>2026-03-17T00:00:00+01:00</updated><id>/blogg/blog/snapshot-cerveau</id><content type="html" xml:base="/blogg/blog/snapshot-cerveau/"><![CDATA[<p>Full motivé dernièrement. Malgré le doomscroll à la maison, le fait d’être pas mal occupé ça contre-balance le truc. Attention cela dit, je pense qu’il y a de bonnes et de mauvaises façon de se chiller, le doomscroll c’est jamais OK. 
+Certes, observation random.
 BREF</p>
 
 <h2 id="pourquoi-cette-note">Pourquoi cette note</h2>
-<p>Je fais juste un snapshot de ce que j’ai en tête pour le moment. Là pour le moment j’ai trouvé une direction dans laquelle je m’engouffre à fond. C’est assez motivant (que faire quand cette motivation va s’éteindre : question pour plus tard).</p>
+<p>Je fais juste un snapshot de ce que j’ai en tête pour le moment. Là pour le moment j’ai trouvé une direction dans laquelle je m’engouffre à fond. C’est assez motivant (que faire quand cette motivation va se dissiper : question pour plus tard).</p>
 
-<p>Je réalise aussi tout doucement ce que ça veut dire que d’avoir de l’ambition. Je vois comment ce que je fais ça peut rester tout petit et jamais décoller, mais c’est pas ce que je veux faire. Dans le cas des lights et de la scéno, j’ai envie de faire des trucs sur des gros stages, controller des setups lumière complètement énormes plutôt que de rester dans des petites soirées de petits collectifs. Même si ça me fait kiffer énormément, je pense que ça vaut la peine de chercher plus loin, plus haut.<br />
-Maintenant comment orga ma vie pour cet objectif ? Cela demanderait d’apprendre les softwares, apprendre les métiers et <strong>documenter</strong>.<br />
-S’incorporer à des équipes de lighteux sur des festivals, engendrer des collaborations. Libérer du temps pour ça, c’est vrai qu’avec le mémoire c’est un peu complexe. Juste envoyer un DM à des gens que j’aime bien pour voir s’ils ont besoin d’aide dans un premier temps. Discuter, vivre. Ensuite je fais mon move. Connecter avant tout en réalité.</p>
+<p>Je réalise aussi tout doucement ce que je veux viser, ce que je pourrais viser. Je vois comment ce que je fais ça peut rester tout petit et jamais décoller, mais c’est pas ce que je veux faire. Dans le cas des lights et de la scéno, j’ai envie de faire des trucs sur des gros stages, controller des setups lumière complètement énormes plutôt que de rester dans des petites soirées toute ma life. C’est un aspect que j’ai envie de garder à tout prix par contre, collab avec des collectifs, le faire pour la culture avant tout. Mais je pense que ça vaut la peine de chercher plus loin, plus haut, faire un plan. Viser les étoiles pour atterrir sur la lune, c’est ça qu’on dit nan ?
+Maintenant comment orga ma vie pour cet objectif ? Il faut être un minimum stratégique, cela demanderait d’apprendre les softwares, apprendre les métiers et <strong>documenter</strong>.<br />
+S’incorporer à des équipes de lighteux sur des festivals, engendrer des collaborations. Libérer du temps pour ça, c’est vrai qu’avec le mémoire en ce moment c’est un peu complexe, j’ai envie de plus m’y engouffrer. Juste envoyer un DM à des gens que j’aime bien pour voir s’ils ont besoin d’aide dans un premier temps. Discuter, vivre. Ensuite je fais mon move. Connecter avant tout en réalité, au pire ça fait juste des potes, en vrai le calcul est bon.</p>
 
 <h2 id="la-grande-quetion">La grande que$tion</h2>
-<p>La grande question à laquelle je dois encore réfléchir / en parler avec des humains qui sont passés par là, c’est comment équilibrer le fait de vouloir faire carrière, donc de l’argent, et des collabs pour le plaisir / pour apprendre. Dois-je avoir une stratégie ? Devrais-je être beaucoup plus intransigeant ? 
-Moi pour l’instant comment je le vois c’est chopper un job planque qui demande de la présence et non de l’énergie mentale pour pouvoir développer l’aspect créa sur le côté. Faire mes bails sans pression de se faire payer, avoir le luxe de ne pas mettre d’enjeu dans cette quest directement. Mais à terme, viser plus haut, proposer mes services, et avoir le pouvoir de dire fuck off. Là j’ai l’impression que je suis dans une posture où j’ai pas assez d’arguments pour être pris. 
+<p>La grande question à laquelle je dois encore réfléchir / en parler avec des humains qui sont passés par là, c’est comment équilibrer le fait de vouloir faire carrière, donc de l’argent, et des collabs pour le plaisir / pour apprendre. Dois-je avoir une stratégie middle, long terme ? Devrais-je être beaucoup plus intransigeant par rapport à l’argent ? Argent  = respect ? 
+Moi pour l’instant comment je le vois c’est chopper un job planque qui demande de la présence et non de l’énergie mentale pour pouvoir développer l’aspect créa sur le côté. Faire mes bails sans pression de se faire payer, avoir le luxe de ne pas mettre d’enjeu dans cette quest directement. Mais à terme, viser plus haut, proposer mes services, et avoir le pouvoir de quémander MON prix, et avoir le pouvoir de dire ciao. Là pour l’instant je suis dans une posture où j’ai pas assez d’arguments pour être pris dans un big truc.
 Un truc important ça va être de parler d’argent avec des artistes et comprendre ce qui permet de se faire payer sur ce genre de prestations. 
-<strong>Qui paye ? Qui paye le mieux ? Que veulent-ils ?</strong></p>
+<strong>Qui paye ? Qui paye le mieux ? Que veulent-ils ?</strong> 
+Et puis parler argent c’est tellement important pour éviter de se faire couiller. Nique les boites noires, les arrangements chelous entre les gens qui choissisent et les artistes qui récup les miettes.</p>
 
 <h2 id="le-doute">Le doute</h2>
-<p>Observation cool : j’ai le syndrome de l’imposteur parfois mais j’arrive à faire la part des choses et j’arrive à être fier de moi. 
-Le syndrome de l’imposteur pointe le bout de son nez ça et là, et je pense que c’est normal de douter. Parfois je me dit “Mais c’est vraiment ça que je veux faire ?”. 
-Que ça soit la comparaison aux milliers d’artistes qui font ça 1000x mieux que toi sur insta parce qu’ils sont là depuis super longtemps (ou juste pas les mêmes moyens). Ou juste le fait de jongler avec plusieurs passions. Qui me dit que ça c’est la bonne voie ?</p>
+<p>Observation cool : j’ai le syndrome de l’imposteur parfois mais j’arrive à faire la part des choses et j’arrive à être fier de moi. Je pense que c’est normal de douter. Parfois je me dit “Mais c’est vraiment ça que je veux faire ?”, je perd pas mon temps ? Mais ça vient de plusieurs trucs :</p>
+<ul>
+  <li>La comparaison aux milliers d’artistes qui font ça 1000x mieux que toi sur insta parce qu’ils sont là depuis super longtemps (ou juste pas les mêmes moyens)</li>
+  <li>Le fait de jongler avec plusieurs passions</li>
+  <li>Globalement parce que je pense que c’est dur de faire un choix</li>
+</ul>
 
 <h2 id="développement">Développement</h2>
 <p>Et puis la grande question des bourses. J’ai l’impression que petit à petit, en développant mes idées, je peux tout doucement chercher à décrocher une bourse ArtSciences ou art numérique pour de la recherche artistique personnelle. Je dois juste faire ça intelligemment et continuer de documenter mon travail, histoire de pouvoir tout compiler dans un portfolio convaincant. Showcase mes compétences, transmettre ma vision et convaincre de mon implication dans cette mission.</p>
@@ -25,9 +74,9 @@ Que ça soit la comparaison aux milliers d’artistes qui font ça 1000x mieux q
 <h2 id="quai-je">Qu’ai je</h2>
 <p>En réfléchissant il y a des trucs qui sont un peu à contre courant qui me paraissent logique, mais parfois je me bride en me disant que c’est pas comme ça que ça marche; C’est peut être justement en faisant ces choses que ça qui va m’aligner avec mes valeurs, avec la manière dont je veux travailler et  au final me rendre plus authentique, peut être se démarquer, whatever that means. 
 Là pour l’instant je veux surtout parler du fait d’avoir du matos. J’ai l’impression que je dois tout faire DIY, tout acheter moi même en mode schmettos pour faire une preuve de concept et pouvoir proposer ça à des prods plus grandes. Est ce que c’est une bonne stratégie ? Devrais-je simplement conceptualiser d’abord ? Vendre des idées, checker si ça marche après ? 
-Dans ma tête les deux fonctionnent. Je pense avoir des POC et pouvoir proposer un vrai truc à développer ça fait très sérieux.</p>
-
-<p>Yapluka</p>]]></content><author><name></name></author><category term="pensées" /><summary type="html"><![CDATA[Là j’ai la gnack dernièrement. Malgré le doomscroll à la maison, le fait d’être pas mal occupé ça contre-balance le truc. Attention cela dit, je pense qu’il y a de bonnes et de mauvaises façon de se chiller, le doomscroll c’est jamais OK. BREF]]></summary></entry><entry><title type="html">debrief gig projection chez Leswar</title><link href="/blogg/blog/leswarlights/" rel="alternate" type="text/html" title="debrief gig projection chez Leswar" /><published>2026-03-13T00:00:00+01:00</published><updated>2026-03-13T00:00:00+01:00</updated><id>/blogg/blog/leswarlights</id><content type="html" xml:base="/blogg/blog/leswarlights/"><![CDATA[<h2 id="design">Design</h2>
+Dans ma tête les deux fonctionnent. Je pense avoir des POC et pouvoir proposer un vrai truc à développer ça fait très sérieux. 
+Maintenant j’il faut que je réfléchisse à comment demander de l’aide pour ça. Avec Ohme je peux déjà tester de ouf, il faut juste que je demande de manière structurée et normalement ça le fait. 
+Yapluka</p>]]></content><author><name></name></author><category term="pensées" /><summary type="html"><![CDATA[Full motivé dernièrement. Malgré le doomscroll à la maison, le fait d’être pas mal occupé ça contre-balance le truc. Attention cela dit, je pense qu’il y a de bonnes et de mauvaises façon de se chiller, le doomscroll c’est jamais OK. Certes, observation random. BREF]]></summary></entry><entry><title type="html">Débrief du gig live projection chez Leswar</title><link href="/blogg/blog/leswarlights/" rel="alternate" type="text/html" title="Débrief du gig live projection chez Leswar" /><published>2026-03-13T00:00:00+01:00</published><updated>2026-03-13T00:00:00+01:00</updated><id>/blogg/blog/leswarlights</id><content type="html" xml:base="/blogg/blog/leswarlights/"><![CDATA[<h2 id="design">Design</h2>
 <p><a href="/blogg/notes/loop-design/">Loop Design</a></p>
 
 <p><a href="/blogg/notes/research-and-process/">Research and process</a></p>

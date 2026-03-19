@@ -1,6 +1,6 @@
 ---
 layout: post
-title: debrief gig projection chez Leswar
+title: Débrief du gig live projection chez Leswar
 date: 2026-03-13
 tags: visuals
 ---

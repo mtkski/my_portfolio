@@ -34,9 +34,6 @@ collections:
   notes:
     output: true
     permalink: /notes/:slug/
-  technical:
-    output: true
-    permalink: /technical/:slug/
 
 defaults:
   - scope:
@@ -46,10 +43,6 @@ defaults:
       layout: tagged
   - scope:
       path: "_notes"
-    values:
-      layout: note
-  - scope:
-      path: "_technical"
     values:
       layout: note
 
@@ -66,4 +59,3 @@ exclude: [vendor]
 
 Blog: /blog/
 Life: /life
-Technical: /technical/

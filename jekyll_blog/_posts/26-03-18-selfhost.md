@@ -1,6 +1,11 @@
 ---
-slug: selfhost
+layout: post
+title: Self hosting adventure
+date: 2026-03-18
+tags: technical
 ---
+
+WIP, nothing works here yet. 
 
 ## In a nutshell 
 The key points on selfhosting : 
