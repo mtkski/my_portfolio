@@ -6,7 +6,9 @@ J'essaie d'être réaliste même si j'imagine que je reste très optimiste.
 
 # Prix setup average
 confo pour 100-150 personnes ?
+
 *Average case* de partout
+
 ## Sub
 Pas encore full cherché. 
 
@@ -15,8 +17,11 @@ ___
 
 ## Caisson MT130
 80€ en bois, peinture, quincaillerie etc
+
 100€ comp
+
 150€ 12'
+
 60€ le pavillon
 
 ___
@@ -26,8 +31,11 @@ ___
 
 ## Amp et cx
 100€ amp pour la compression (il faut arriver à 60-100W, ils sont à 30-50W RMS safe et efficace)
+
 200€ amp 12' (400-500W, il faut envoyer 200-250W RMS) à voir si [t.amp E-800 350W](https://www.2ememain.be/v/musique-instruments/amplis-clavier-moniteur-sono/m2377838955-le-t-amp-e-800-amplificateur-de-sonorisation-2x490w) c'est ok, ça donnerait 100€ quoi, en bridged ça fait 480W par HP
+
 150€ pour un Paladium P-2000 pour les sub : 2 x 750 W RMS@8 Ohm, 2050W en bridge
+
 150€ [DCX2496](https://www.thomann.fr/behringer_dcx2496_ultradrive_pro_lautsprechermanagement.htm)
 
 ___
@@ -37,6 +45,7 @@ ___
 
 # Setup du rat (tjrs moins)
 Juste pour voir le minimum du minimum, deux amplis avec crossover passif. 
+
 ## Sub 
 
 ___
@@ -44,8 +53,11 @@ ___
 
 ## Caisson MT130
 60€ en bois, peinture, quincaillerie etc (baissé un peu p/r à au dessus)
+
 100€ comp
+
 150€ 12'
+
 60€ le pavillon
 
 ___
@@ -55,8 +67,11 @@ ___
 
 ## Amp et cx
 100€ amp pour la compression et le 12'
+
 150€ ampli sub
+
 150€ [DCX2496](https://www.thomann.fr/behringer_dcx2496_ultradrive_pro_lautsprechermanagement.htm) 
+
 60€ filtre passif  1.2Khz
 
 ___
